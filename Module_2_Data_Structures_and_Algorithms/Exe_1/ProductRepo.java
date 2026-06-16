@@ -42,4 +42,25 @@ public class ProductRepo {
         return p;
     }
 
+    public boolean alterDetails(int id,int field,String data) {
+        if (!mpp.containsKey(id)) {
+            System.out.println("There is no product with id " + id);
+            return false;
+        }
+        switch (field) {
+            case 1:
+                mpp.get(id).setProductName(data);
+                break;
+            case 2:
+                mpp.get(id).setProductQuantity(Integer.parseInt(data));
+                break;
+            case 3:
+                mpp.get(id).setPrice(Double.parseDouble(data));
+                break;
+            default:
+                System.out.println("Invalid choice");
+                return false;
+        }
+        return true;
+    }
 }

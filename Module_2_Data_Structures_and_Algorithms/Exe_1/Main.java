@@ -7,15 +7,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ProductRepo repo = new ProductRepo();
-        int choice=0;
+        int choice=1;
         int id;
         Product p = null;
-        while (choice != 5) {
+        while (choice > 0 && choice < 6) {
             System.out.println("=====================");
             System.out.println("1. Add products");
             System.out.println("2. Delete products");
             System.out.println("3. View products");
             System.out.println("4. View All products");
+            System.out.println("5. Change details");
             System.out.println("=====================");
             System.out.println("Enter your choice");
             choice = sc.nextInt();
@@ -54,7 +55,21 @@ public class Main {
                                         + i.getPrice());
                     }
                     break;
-
+                case 5:
+                    System.out.println("Enter the id to alter details");
+                    id = sc.nextInt();
+                    System.out.println("============");
+                    System.out.println("1.Product Name");
+                    System.out.println("2.Product Quantity");
+                    System.out.println("3.Product Price");
+                    System.out.println("============");
+                    int field = sc.nextInt();
+                    System.out.println("Enter the new data");
+                    String data = sc.next();
+                    if (repo.alterDetails(id, field, data)) {
+                        System.out.println("Details changed successfully");
+                    }
+                    break;
                 default:
                     break;
 
