@@ -1,9 +1,9 @@
-package Week_1_Design_Patterns_and_Principles.Exe_2;
+package Module_1_Design_Patterns_and_Principles.Exe_2;
 
-import Week_1_Design_Patterns_and_Principles.Exe_2.Documents.Document;
-import Week_1_Design_Patterns_and_Principles.Exe_2.Factory.ExcelFactory;
-import Week_1_Design_Patterns_and_Principles.Exe_2.Factory.PdfFactory;
-import Week_1_Design_Patterns_and_Principles.Exe_2.Factory.WordFactory;
+import Module_1_Design_Patterns_and_Principles.Exe_2.Documents.Document;
+import Module_1_Design_Patterns_and_Principles.Exe_2.Factory.ExcelFactory;
+import Module_1_Design_Patterns_and_Principles.Exe_2.Factory.PdfFactory;
+import Module_1_Design_Patterns_and_Principles.Exe_2.Factory.WordFactory;
 
 public class Main {
     public static void main(String[] args) {

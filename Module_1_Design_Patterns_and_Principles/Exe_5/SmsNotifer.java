@@ -1,4 +1,4 @@
-package Week_1_Design_Patterns_and_Principles.Exe_5;
+package Module_1_Design_Patterns_and_Principles.Exe_5;
 
 public class SmsNotifer extends NotiferDecorator {
     public SmsNotifer() {

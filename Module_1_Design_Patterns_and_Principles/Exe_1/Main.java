@@ -1,4 +1,4 @@
-package Week_1_Design_Patterns_and_Principles.Exe_1;
+package Module_1_Design_Patterns_and_Principles.Exe_1;
 
 public class Main {
     public static void main(String[] args) {

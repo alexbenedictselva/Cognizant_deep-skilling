@@ -1,4 +1,4 @@
-package Week_1_Design_Patterns_and_Principles.Exe_3;
+package Module_1_Design_Patterns_and_Principles.Exe_3;
 
 public class BuilderPatternExample {
     public String cpu;
