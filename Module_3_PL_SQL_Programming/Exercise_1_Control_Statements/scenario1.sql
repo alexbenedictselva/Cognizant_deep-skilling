@@ -4,7 +4,7 @@ declare
     dob Customers.DOB%Type;
     dates Customers.LastModified%Type;
     age number;
-BEGIN
+BEGIN 
     open cust_cursor;
     LOOP
         fetch cust_cursor into id,dob,dates;
