@@ -29,6 +29,7 @@ public class OrmLearnApplication {
 	}
 
 	public static void main(String[] args) {
+		//Exe2 - just to find the difference between JPA,hibernate and spring data JPA so no need for any hands on!!
 		ApplicationContext context = SpringApplication.run(OrmLearnApplication.class, args);
 
 		countryService = context.getBean(CountryService.class);
