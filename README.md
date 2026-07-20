@@ -1,6 +1,6 @@
 # Cognizant Deep Skilling
 
-## Mandatory Hands-On Exercises Completed
+## Completed Exercises
 
 | Skill                                       | Filename                         | Exercise Name                                                                                    |
 | :------------------------------------------ | :------------------------------- | :----------------------------------------------------------------------------------------------- |
