@@ -1,9 +1,12 @@
-import OfficeSpaceRental from './OfficeSpaceRental';
+import EventExamples from './EventExamples';
+import CurrencyConvertor from './CurrencyConvertor';
 
 function App() {
   return (
     <div>
-      <OfficeSpaceRental />
+      <EventExamples />
+      <hr />
+      <CurrencyConvertor />
     </div>
   );
 }
