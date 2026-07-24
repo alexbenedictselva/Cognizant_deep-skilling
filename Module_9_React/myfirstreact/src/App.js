@@ -1,12 +1,9 @@
-import EventExamples from './EventExamples';
-import CurrencyConvertor from './CurrencyConvertor';
+import TicketBookingApp from './TicketBookingApp';
 
 function App() {
   return (
     <div>
-      <EventExamples />
-      <hr />
-      <CurrencyConvertor />
+      <TicketBookingApp />
     </div>
   );
 }
