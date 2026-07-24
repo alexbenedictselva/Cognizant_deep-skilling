@@ -1,22 +1,26 @@
-import CohortDetails from './CohortDetails';
+import ListofPlayers from './ListofPlayers';
+import { IndianPlayers, OddPlayers, EvenPlayers } from './IndianPlayers';
+
+const flag = true;
 
 function App() {
   return (
     <div>
-      <CohortDetails
-        name="React Cohort"
-        status="ongoing"
-        startDate="2024-01-01"
-        endDate="2024-06-30"
-        trainer="John Doe"
-      />
-      <CohortDetails
-        name="Java Cohort"
-        status="completed"
-        startDate="2023-06-01"
-        endDate="2023-12-31"
-        trainer="Jane Smith"
-      />
+      {flag ? (
+        <div>
+          <h2>List of Players</h2>
+          <ListofPlayers />
+        </div>
+      ) : (
+        <div>
+          <h2>Indian Players (Merged)</h2>
+          <ul>{IndianPlayers.map((p, i) => <li key={i}>{p}</li>)}</ul>
+          <h2>Odd Team Players</h2>
+          <OddPlayers>{IndianPlayers}</OddPlayers>
+          <h2>Even Team Players</h2>
+          <EvenPlayers>{IndianPlayers}</EvenPlayers>
+        </div>
+      )}
     </div>
   );
 }
