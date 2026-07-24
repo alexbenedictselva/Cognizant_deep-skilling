@@ -1,16 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
-import { Home } from './Components/Home';
-import { About } from './Components/About';
-import { Contact } from './Components/Contact';
+import { CalculateScore } from './Components/CalculateScore';
 
 function App() {
   return (
-    <div className="container">
-      <Home />
-      <About />
-      <Contact />
+    <div>
+      <CalculateScore
+        Name={"Steeve"}
+        School={"DNV Public School"}
+        total={284}
+        goal={3}
+      />
     </div>
   );
 }
