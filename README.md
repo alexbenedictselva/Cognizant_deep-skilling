@@ -38,3 +38,8 @@
 | React                                             | 11. ReactJS-HOL                  | Hands-on in this document                                                                        |
 | React                                             | 12. ReactJS-HOL                  | Hands-on in this document                                                                        |
 | React                                             | 13. ReactJS-HOL                  | Hands-on in this document                                                                        |
+| GIT                                               | 1. Git-HOL                       | Hands-on in this document                                                                        |
+| GIT                                               | 2. Git-HOL                       | Hands-on in this document                                                                        |
+| GIT                                               | 3. Git-HOL                       | Hands-on in this document                                                                        |
+| GIT                                               | 4. Git-HOL                       | Hands-on in this document                                                                        |
+| GIT                                               | 5. Git-HOL                       | Hands-on in this document                                                                        |
